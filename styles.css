@@ -5,6 +5,16 @@ body {
     margin: 0;
 }
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px;
+}
+
 #header {
     background-color: #1F2937;
     display: flex;
@@ -58,15 +68,8 @@ body {
 }
 
 .hero-left button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    font-weight: 700;
-    font-size: 18px;
     border: none;
-    cursor: pointer;
-    padding: 10px 32px;
-    border-radius: 10px;
-    margin: 5px;
+    padding: 11px 32px;
 }
 
 .hero-right {
@@ -155,4 +158,52 @@ body {
     font-weight: 700;
     align-self: flex-end;
     margin: 0;
+}
+
+#call-action {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#action-container {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    width: 1050px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+    border-radius: 10px;
+}
+
+#action-container button {
+    border: solid 4px #F9FAF8;
+    padding: 7px 32px;
+}
+
+#action-container h4 {
+    margin: 3px 0;
+    font-weight: 700;
+    font-size: 22px;    
+}
+
+#action-container p {
+    margin: 3px 0;
+    font-size: 18px;
+}
+
+#footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    font-size: 18px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer span{
+    margin: 0 4px;
 }
